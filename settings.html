@@ -1,10 +1,20 @@
 <div id="settings_wrap">
-
 	<header>
-		<h1>GradeBook</h1>
+		<h1>Settings</h1>
 	</header>
 	<section>
-
+		<article class="form_wrap">
+			<form action="../../add_settings" enctype="multipart/form-data" method="post">
+			    <label>User Name</label>
+			    <input type="text" name="user_name">
+			    <label>Background Color</label>
+			    <input type="text" name="bg_color">
+			    <div class="draw_colors"></div>
+			    <label>Profile Image</label>
+			    <input type="file" name="profile_img">
+			    <input type="submit" class="submit" value="Save">
+			</form>
+		</article><!-- - /form_wrap - -->
 	</section>
 	<footer class="profile">
 		<h2>GradeBook</h2>

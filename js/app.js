@@ -18,6 +18,10 @@ demo.config(['$routeProvider', function($routeProvider){
     templateUrl: 'dashboard.html',
     controller: 'ctrl'
   })
+  .when('/reporting', {
+    templateUrl: 'reporting.html',
+    controller: 'ctrl'
+  })
   .when('/grades', {
     templateUrl: 'grades.html',
     controller: 'ctrl'

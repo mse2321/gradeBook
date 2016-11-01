@@ -1,8 +1,18 @@
 <div id="import_wrap">
 	<header>
-		<h1>GradeBook</h1>
+		<h1>Import</h1>
 	</header>
-	<section></section>
+	<section>
+		<div id="import_success">Import Successful</div>
+		<form action="../../add_settings" enctype="multipart/form-data" method="post">
+			<label>Load file here</label>
+			<input type="file" name="file_data">
+			<input type="submit" class="submit" value="Save">
+		</form>
+		<div>
+			<h2>Import History</h2>
+		</div>
+	</section>
 	<footer class="profile">
 		<h2>GradeBook</h2>
 		<nav id="profile_nav">
