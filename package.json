@@ -1,0 +1,25 @@
+{
+  "name": "grade_book",
+  "version": "1.0.0",
+  "description": "Teaching Data Manager",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mse2321/gradeBook.git"
+  },
+  "author": "Marcus Eubanks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mse2321/gradeBook/issues"
+  },
+  "homepage": "https://github.com/mse2321/gradeBook#readme",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
