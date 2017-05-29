@@ -1,3 +1,4 @@
+/*
 var demo = angular.module('demo', ['ngRoute']);
 
 demo.config(['$routeProvider', function($routeProvider){
@@ -42,3 +43,4 @@ demo.config(['$routeProvider', function($routeProvider){
 demo.controller('ctrl', function(){
   	
 });
+*/
